@@ -105,13 +105,14 @@
 
 	<build>
 		<defaultGoal>clean install</defaultGoal>
-		<sourceDirectory>src/</sourceDirectory>
+		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
-				<directory>${project.basedir}</directory>
+				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 				<includes>
 					<include>plugin.yml</include>
+                    <include>license.txt</include>
 				</includes>
 			</resource>
 		</resources>
