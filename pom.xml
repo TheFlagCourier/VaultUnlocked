@@ -54,13 +54,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>codemc-releases</id>
-			<url>https://repo.codemc.io/repository/maven-releases/</url>
+			<id>creatorfromhell-repo</id>
+			<url>https://repo.codemc.io/repository/creatorfromhell/</url>
 		</repository>
-		<snapshotRepository>
-			<id>codemc-snapshots</id>
-			<url>https://repo.codemc.io/repository/maven-snapshots/</url>
-		</snapshotRepository>
 	</distributionManagement>
 	<repositories>
 		<repository>
@@ -68,8 +64,8 @@
 			<url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
 		</repository>
 		<repository>
-			<id>codemc-repo</id>
-			<url>https://repo.codemc.io/repository/maven-releases/</url>
+			<id>creatorfromhell-repo</id>
+			<url>https://repo.codemc.io/repository/creatorfromhell/</url>
 		</repository>
 		<repository>
 			<id>placeholderapi</id>
