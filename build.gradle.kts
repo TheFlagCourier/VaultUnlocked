@@ -74,7 +74,7 @@ publishing {
             scm {
                 connection = "scm:git:git://github.com/TheNewEconomy/VaultUnlocked.git"
                 developerConnection = connection
-                url = vuWebsite
+                url = "https://github.com/TheNewEconomy/VaultUnlocked/"
             }
             issueManagement {
                 system = "GitHub"
